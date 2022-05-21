@@ -103,6 +103,10 @@ p {
     margin-right: 20px;
 }
 
+span {
+    color: white;
+}
+
 span:hover {
     color:  hsl(180, 100%, 50%);
 }
