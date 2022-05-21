@@ -1,0 +1,112 @@
+* {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.container {
+    border: 10px solid hsl(216, 50%, 16%);
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 25px;
+    width: 245px;
+    height: 487px;
+
+}
+hr {
+    border:  1px solid  hsl(215, 32%, 27%);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h5 {
+    color: white;
+    padding-left: 7px;
+    padding-bottom: 15px;
+}
+h5:hover {
+    color: hsl(180, 100%, 50%);
+}
+
+p {
+    font-size: 16px;
+    color: lightgray;
+    opacity:0.5;
+    padding-left: 9px;
+}
+
+.bottom {
+
+    font-size: 10px;
+}
+
+.avatar2 {
+    color: hsl(215, 51%, 70%);
+
+}
+.eth {
+    font-size: 12px;
+    margin-left: 7px;
+    color: hsl(180, 100%, 50%);
+}
+
+.ethicon {
+    position: relative;
+    top: 20px;
+}
+
+.time {
+    font-size: 12px;
+    position: relative;
+    text-align: right;
+    bottom: 35px;
+}
+.clock {
+    position: relative;
+    left: 150px;
+    bottom: 15px;
+}
+
+.pic {
+    margin: 20px;
+    margin-left: auto;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.by {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    position: relative;
+    bottom: 45px;
+}
+
+.name {
+    margin-right: 20px;
+}
+
+span:hover {
+    color:  hsl(180, 100%, 50%);
+}
+
+footer {
+    color: white;
+}
