@@ -141,4 +141,6 @@ span:hover {
 
 footer {
     color: white;
+    position: relative;
+    bottom: 50px;
 }
